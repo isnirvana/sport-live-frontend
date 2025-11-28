@@ -22,7 +22,7 @@ const closeModalBtn = document.getElementById("closeModal");
 
 /* ----- Backend URL ----- */
 // const SERVER_URL = "http://13.62.99.17:5000"; // replace with your EC2 public IP
-const SERVER_URL = "http://192.168.43.52:5000"; // replace with your EC2 public IP
+const SERVER_URL = "http://13.62.99.17:5000"; // replace with your EC2 public IP
 
 /* ----- Helpers ----- */
 const safeFetchJson = async (url, opts = {}) => {
